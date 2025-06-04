@@ -32,4 +32,4 @@ predicted_class = prediction[0]
 class_names = ["Setosa", "Versicolor", "Virginica"]
 
 st.subheader("예측 결과")
-st.write(f→"{class_names[predicted_class]}")
+st.write(f"{class_names[predicted_class]}")
